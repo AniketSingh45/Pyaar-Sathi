@@ -1,0 +1,99 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+    color: white;
+        margin: 0px;
+        padding: 0px;
+       
+        background: linear-gradient(rgba(0, 0, 0, 0.65), transparent),
+    url("../img/6.jpg");
+        background-size: cover;   
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+    @font-face {
+  font-family: "Vibes";
+  src: url("../fonts/GreatVibes-Regular.ttf");
+}
+   
+    .navbar{
+        
+        background-color: rgba(5, 0, 12, 0.42);
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 10vh;
+        width: 100%;               
+        
+        
+    }
+    .navbar li{
+            display: inline-block;
+            font-size: 35px;
+        }
+        .navbar li a{
+            color: white;;
+            text-decoration: none;
+            padding: 34px 53px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            
+            color: rgba(151, 151, 151, 0.85);
+        }
+        .navbar h3{
+            font-family: "Vibes", sans-serif;
+
+        }
+        .btn{
+            font-family: 'Caprasimo', cursive;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 18px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(14, 71, 124);
+        }
+        .btn1     {
+          
+        }   
+        .container{
+            background: rgba(5, 0, 12, 0.62);
+            margin: 150px 70px;
+            padding: 10px 23px;
+            width: 33%;
+            border-radius: 20px;
+            
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 350x;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 10px;
+            font-family: 'Caprasimo', cursive;           
+        }
+        .container h1{
+            text-align: center;
+           padding: 1.5rem;
+            color:rgba(153, 214, 178, 0.93);       
+        }
+        .container button{
+            display: block;
+            width: 30%;
+            margin: 20px auto;
+            background-color: rgb(214, 151, 67);
+            
+        }
+        
